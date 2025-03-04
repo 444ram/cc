@@ -8,5 +8,5 @@ class TestApp(unittest.TestCase):
         self.asserEqual(add(8,3),5)
         self.asserEqual(add(25,3),5)
         self.asserEqual(add(6,3),5)
-if ___name___ == '___main___':
+if __name__ == '__main__':
     unittest.main()

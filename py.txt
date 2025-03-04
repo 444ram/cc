@@ -1,0 +1,23 @@
+$ ls ~/.ssh
+id_ed25519  id_ed25519.pub  known_hosts  known_hosts.old
+
+
+$ ssh-keygen -t ed25519 -C "email@gmail.com"
+
+
+ eval "$(ssh-agent -s)"
+
+$ clip < ~/.ssh/id_ed25519.pub
+ add i ssh key git hub
+
+ ssh -T git@github.com
+
+
+$ git pull origin main
+
+
+$ git push -u origin main
+
+
+$ git push -f origin main
+
